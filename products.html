@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Brewed Awakening</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">
+                <h1>Brewed Awakening</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="contact.html">Contact Us</a></li>
+                    <li><a class="current-page" href="products.html">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <h1>Our Menu</h1>
+        <p>
+            At Brewed Awakening, we serve a variety of handcrafted beverages and delicious pastries to satisfy your
+            cravings. Whether you're a coffee aficionado or have a sweet tooth, there's something here for you.
+        </p>
+        <h2>Our Coffee</h2>
+        <ul>
+            <li><strong>Espresso</strong> – Bold and pure, for the true coffee lover.</li>
+            <li><strong>Latte</strong> – Creamy perfection, topped with silky foam.</li>
+            <li><strong>Cappuccino</strong> – A classic blend of espresso, steamed milk, and foam.</li>
+        </ul>
+        <h2>Our Pastries</h2>
+        <ul>
+            <li><strong>Cinnamon Buns</strong> – Baked fresh daily with a touch of sweetness.</li>
+            <li><strong>Chocolate Croissants</strong> – A flaky, buttery delight with rich chocolate filling.</li>
+            <li><strong>Seasonal Treats</strong> – Ask us about today’s special pastries!</li>
+        </ul>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentYear"></span> Jonas Ståleker. All Rights Reserved.</p>
+        </div>
+        <div>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        // Dynamiskt år för copyright
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>

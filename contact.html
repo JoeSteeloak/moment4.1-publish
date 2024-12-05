@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Brewed Awakening</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">
+                <h1>Brewed Awakening</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current-page" href="contact.html">Contact Us</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <h1>Contact Brewed Awakening</h1>
+        <p>
+            We'd love to hear from you! Whether you have a question, feedback, or just want to say hi, feel free to get
+            in touch.
+        </p>
+        <form action="submit.php" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <h2>Visit Us</h2>
+        <p>
+            Brewed Awakening<br>
+            Central Malmö, Sweden<br>
+            Open daily: 8:00 AM – 6:00 PM
+        </p>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentYear"></span> Jonas Ståleker. All Rights Reserved.</p>
+        </div>
+        <div>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        // Dynamiskt år för copyright
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>

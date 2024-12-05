@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Brewed Awakening</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flavors&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">
+                <h1>Brewed Awakening</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="current-page" href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="flex-container">
+                <div style="flex-grow: 3;">
+                    <section>
+                        <h1>Welcome to Brewed Awakening</h1>
+                        <p>
+                            At Brewed Awakening, we believe every cup tells a story. Nestled in the heart of Malmö, our
+                            café offers a cozy
+                            escape where tradition meets innovation. Enjoy expertly brewed coffee, delectable pastries,
+                            and a space that
+                            feels like home. From the first sip to the last bite, every detail is designed to make your
+                            day a little
+                            brighter.
+                        </p>
+                        <p>
+                            Whether you're stopping by for a quick espresso, catching up with friends over brunch, or
+                            diving into your
+                            latest book with a cappuccino in hand, we're here to make your visit memorable. Don’t forget
+                            to explore our
+                            rotating selection of seasonal drinks and freshly baked goods, crafted with care and
+                            creativity.
+                        </p>
+                        <h2>Meet Our Team</h2>
+                        <p>
+                            Behind every cup of coffee is a passionate team of four skilled baristas, each with their
+                            own unique touch.
+                            From crafting intricate latte art to hand-selecting the best beans, our team is committed to
+                            delivering
+                            exceptional quality. Come meet Mia, our newest addition, or catch Robert sharing his tips on
+                            the perfect
+                            pour-over technique. Together, we aim to bring the warmth and charm of Brewed Awakening to
+                            every guest.
+                        </p>
+                    </section>
+
+                </div>
+                <div style="flex-grow: 1;">
+                    <aside>
+                        <h2>Latest News</h2>
+                        <article>
+                            <h3>Holiday Baking Workshop</h3>
+                            <img src="/images/baking-workshop.jpg" alt="Baking workshop"
+                                style="height: 200px; width: 270px; object-fit: cover;">
+                            <p>
+                                Join us for a delightful afternoon of baking! On December 15th, our in-house pastry chef
+                                will guide you through
+                                creating your own holiday treats. Spots are limited, so sign up soon to secure your
+                                place!
+                            </p>
+                        </article>
+                        <hr>
+                        <article>
+                            <h3>Welcome, Mia!</h3>
+                            <img src="/images/mia.jpg" alt="pumkpkin spice latte"
+                                style="height: 200px; width: 270px; object-fit: cover;">
+                            <p>
+                                We’re thrilled to introduce Mia, our newest barista! Stop by and say hi—Mia's specialty
+                                is a
+                                rich,
+                                velvety cappuccino.
+                            </p>
+                        </article>
+                        <article>
+                            <h3>Free Coffee Fridays!</h3>
+                            <img src="/images/free-coffee.jpg" alt="Free coffee event"
+                                style="height: 200px; width: 270px; object-fit: cover;">
+                            <p>
+                                Treat yourself this Friday! Brewed Awakening is excited to offer a free small coffee
+                                with any purchase all day.
+                                Bring a friend, enjoy the cozy vibes, and let us make your Friday extra special.
+                            </p>
+                        </article>
+                        <hr>
+                        <article>
+
+                            <h3>New Seasonal Drink: Pumpkin Spice Latte</h3>
+                            <img src="/images/pumkpin-spice-latte.jpg" alt="pumkpkin spice latte"
+                                style="height: 200px; width: 270px; object-fit: cover;">
+                            <p>
+                                Autumn is here, and so is our Pumpkin Spice Latte! Made with our signature espresso,
+                                steamed
+                                milk,
+                                and a
+                                dash of fall spices. Come and try it before it’s gone!
+                            </p>
+                        </article>
+
+                    </aside>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentYear"></span> Jonas Ståleker. All Rights Reserved.</p>
+        </div>
+        <div>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        // Dynamiskt år för copyright
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    background: url('../images/background-image.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+    color: #ffd500;
+    text-shadow: 5px 1px 1px black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container {
+    margin: 0 20%;
+    max-width: 1000px;
+}
+
+main {
+    background-color: antiquewhite;
+    padding: 1.5em;
+}
+
+.main-header {
+    margin: 0;
+    padding: 0;
+}
+
+nav.main-nav {
+    padding: 0;
+    margin: 0;
+}
+
+nav.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav.main-nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 235, 215, 0.5);
+    text-align: center;
+}
+
+nav.main-nav li:hover {
+    filter: brightness(50%);
+}
+
+.current-page {
+    background-color: rgb(250, 235, 215);
+}
+
+nav.main-nav li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.5em;
+}
+
+main {
+    margin: 0;
+    min-width: 600px;
+}
+
+footer {
+    float: right;
+    margin-right: 20%;
+    color: white;
+    margin-bottom: 5em;
+}
+
+footer a:hover {
+    background-color: whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Nyhetsartiklar */
+article:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+/* Formulär */
+form {
+    margin-top: 1.5em;
+}
+
+label {
+    font-weight: bold;
+    color: #3E2C20;
+    margin-bottom: 0.5em;
+    display: block;
+    margin-top: 1em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #77563D;
+    box-shadow: 0 0 5px rgba(119, 86, 61, 0.5);
+}
+
+button {
+    background-color: #77563D;
+    color: white;
+    border: none;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #5C432E;
+}
