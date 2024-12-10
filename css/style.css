@@ -107,7 +107,8 @@ label {
     margin-top: 1em;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.8em;
     margin-bottom: 1.2em;
@@ -118,7 +119,8 @@ input, textarea {
     max-width: 500px;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     border-color: #77563D;
     box-shadow: 0 0 5px rgba(119, 86, 61, 0.5);
@@ -138,4 +140,14 @@ button {
 
 button:hover {
     background-color: #5C432E;
+}
+
+/* Small screen */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 0 5%;
+    }
+    main {
+        min-width: 0px;
+    }
 }
