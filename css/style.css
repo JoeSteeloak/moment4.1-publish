@@ -155,4 +155,14 @@ button:hover {
         justify-content: center;
         gap: 0;
     }
+    header h1 {
+        font-family: "Flavors", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        color: #ffd500;
+        text-shadow: 5px 1px 1px black;
+        text-align: center;
+        margin-bottom: 0;
+    }
 }
