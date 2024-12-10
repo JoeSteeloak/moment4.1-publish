@@ -147,22 +147,23 @@ button:hover {
     .container {
         margin: 0 5%;
     }
+
     main {
         min-width: 0px;
     }
+
     .flex-container {
         display: block;
         justify-content: center;
         gap: 0;
     }
+
     header h1 {
-        font-family: "Flavors", cursive;
-        font-weight: 400;
-        font-style: normal;
         font-size: 50px;
-        color: #ffd500;
-        text-shadow: 5px 1px 1px black;
-        text-align: center;
-        margin-bottom: 0;
+    }
+
+    input,
+    textarea {
+        width: 80%;
     }
 }
