@@ -150,4 +150,9 @@ button:hover {
     main {
         min-width: 0px;
     }
+    .flex-container {
+        display: block;
+        justify-content: center;
+        gap: 0;
+    }
 }
